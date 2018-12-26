@@ -2,7 +2,7 @@
  * 空间复杂度 O(0)
  * 时间发咋读O(nm)
 **/
-public class BFAlg {
+public class BFAlg { 
     private static int bruteForce(char[] a, int n, char[] b, int m) {
         if (m > n)
             return -1;
