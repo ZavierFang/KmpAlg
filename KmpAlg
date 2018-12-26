@@ -56,6 +56,6 @@ public class KmpAlg {
 
 		char[] pat = "SAGAGJNNG".toCharArray();
 
-		System.out.println(KmpAlg.kmp(str, str.length, pat, pat.length));
+		System.out.println(KmpAlg.kmp(str, str.length, pat, pat.length)); 
 	}
 }
