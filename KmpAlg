@@ -28,7 +28,7 @@ public class KmpAlg {
 		return -1;
 	}
 
-    //类似于动态规划的思想
+    //类似于动态规划的思想 
 	private static int[] getNext(char[] b, int m) {
 		int[] next = new int [m];
 
